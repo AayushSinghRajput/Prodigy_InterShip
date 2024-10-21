@@ -1,0 +1,104 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Responsive game board */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 300px;
+    /* Default max width for the game board */
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100%;
+    /* Ensure cells scale with the container */
+    padding-bottom: 100%;
+    /* Keep aspect ratio square */
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+.cell::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* Keep the aspect ratio of the cells square */
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styling for small screens */
+@media (max-width: 600px) {
+    .game-board {
+        max-width: 250px;
+        /* Adjust the board size on smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        /* Smaller font for the title */
+    }
+
+    .cell {
+        font-size: 1.5rem;
+        /* Reduce the font size for smaller screens */
+    }
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.reset-btn:hover {
+    background-color: #ff4757;
+}
+
+.game-status {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
