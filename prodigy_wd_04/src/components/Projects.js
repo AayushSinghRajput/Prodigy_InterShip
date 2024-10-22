@@ -13,7 +13,7 @@ function Projects() {
             filter by categories.
           </p>
           <a
-            href="https://github.com/yourusername/newsapp"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ function Projects() {
             can create, edit, and delete notes, with data stored in MongoDB.
           </p>
           <a
-            href="https://github.com/yourusername/inotebook"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ function Projects() {
             user reviews and a booking form.
           </p>
           <a
-            href="https://github.com/yourusername/travel-website"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -57,7 +57,7 @@ function Projects() {
             input. Built using React.
           </p>
           <a
-            href="https://github.com/yourusername/weather-app"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,7 +71,7 @@ function Projects() {
             Socket.io, allowing users to communicate in different chat rooms.
           </p>
           <a
-            href="https://github.com/yourusername/chat-app"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -86,7 +86,7 @@ function Projects() {
             using React and Bootstrap.
           </p>
           <a
-            href="https://github.com/yourusername/gym-website"
+            href="https://github.com/AayushSinghRajput"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -12,7 +12,10 @@ function Home() {
         Hi! I'm Aayush Singh Rajput, a web developer specializing in creating
         beautiful and functional websites.
       </p>
-      <p>Skills: HTML, CSS, JavaScript, React, Next.js, Bootstrap, Git.</p>
+      <p>
+        Skills: HTML, CSS, JavaScript, React, Next.js,Nodejs,Exprees.js,
+        Bootstrap, Git.
+      </p>
     </section>
   );
 }

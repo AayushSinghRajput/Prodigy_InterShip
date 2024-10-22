@@ -10,7 +10,9 @@ function AboutMe() {
         applications using React and Next.js.
       </p>
       <h3>Education</h3>
-      <p>Graduated from XYZ University with a degree in Computer Science.</p>
+      <p>
+        Graduated from IOE PURWANCHAL CAMPUS with a degree in Computer Science.
+      </p>
       <h3>Professional Experience</h3>
       <p>
         Interned at ABC Company, where I contributed to developing several key
